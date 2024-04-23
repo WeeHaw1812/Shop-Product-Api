@@ -1,0 +1,103 @@
+.productContainer {
+    padding: 40px;
+}
+
+.productImg {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    border: rgb(150, 132, 132) solid 1px;
+}
+
+.aboutProduct {
+    padding: 20px;
+}
+
+.minus {
+    background: aliceblue;
+    font-size: 20px;
+    color: black;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputNumber {
+    width: 50px;
+    text-align: center;
+    border-color: aqua;
+}
+
+
+.plus {
+    background: aliceblue;
+    font-size: 20px;
+    color: black;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addCard {
+    background: greenyellow;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+
+
+.iconBack {
+    background-color: rgb(245, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.iconBack:hover {
+    background: rgb(235, 234, 234);
+}
+
+.daddy {
+    position: relative;
+}
+
+.child {
+    background: white;
+    position: absolute;
+    padding: 0 50px 0 50px;
+    top: 420px;
+    left: 455px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(190, 189, 189);
+}
+
+.childs {
+    background: white;
+    position: absolute;
+    font-weight: bold;
+    color: rgb(190, 189, 189);
+    padding: 0 50px 0 30px;
+    top: 420px;
+    left: 650px;
+    font-size: 20px;
+}
+
+.productText {
+    font-size: 15px;
+}

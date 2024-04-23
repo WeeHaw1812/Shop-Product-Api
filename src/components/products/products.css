@@ -1,0 +1,18 @@
+.category {
+    color: rgb(129, 126, 126);
+    text-decoration: none;
+    font-weight: 500;
+    text-align: left;
+}
+
+.category:hover {
+    color: black;
+}
+
+.iconBack {
+    height: 30px;
+    width: 28px !important;
+    padding: 10px;
+    padding-left: 12px;
+    border-radius: 50%;
+}
